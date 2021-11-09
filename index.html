@@ -4,8 +4,55 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="/main.css" />
     <title>Login Form</title>
   </head>
-  <body></body>
+  <body>
+    <div class="LFP-main-form">
+      <!-- !!SECTION ONE Form Image -->
+      <div class="LFP-image-section">
+        <img src="./img/login_pic.png" alt="image" class="LFP-form-image" />
+      </div>
+      <!-- !!SECTION TWO Form Section -->
+      <div class="LFP-form-section">
+        <!-- Form Header -->
+        <div class="LFP-form-header">
+          <h3 class="LFP-form-heading">Sign In</h3>
+          <div class="LFP-form-icons">
+            <ion-icon name="logo-facebook"></ion-icon>
+            <ion-icon name="logo-twitter"></ion-icon>
+          </div>
+        </div>
+        <!-- Form Inputs -->
+        <div class="LFP-form-control">
+          <label for="username">Username</label>
+          <input type="text" name="username" id="username" />
+        </div>
+        <div class="LFP-form-control">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" />
+        </div>
+        <div class="LFP-form-control">
+          <button class="LFP-form-btn" type="submit">Sign In</button>
+        </div>
+        <!-- Form Footer -->
+        <div class="LFP-form-footer">
+          <div class="LFP-form-control LFP-form-control-CBX">
+            <input type="checkbox" name="remember-me" id="remember-me" />
+            <label for="remember-me">Remember Me</label>
+            <a href="#">Forgot Password</a>
+          </div>
+          <!-- <p class="LFP-form-footer-btmtxt">
+            Not a member? <a href="#">Sign Up</a>
+          </p> -->
+        </div>
+      </div>
+    </div>
+    <script src="/main.js"></script>
+    <!-- IONIC ICONS CDN -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+  </body>
 </html>
