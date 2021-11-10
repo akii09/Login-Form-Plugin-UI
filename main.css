@@ -17,6 +17,32 @@ body {
   padding: 2rem;
 }
 
+/* Media Properties */
+
+@media screen and (max-width: 985px) {
+  .LFP-main-form {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .LFP-form-image {
+    border-radius: 10px 10px 0 0 !important;
+  }
+
+  .LFP-form-section {
+    width: 100% !important;
+    max-width: 500px;
+    border-radius: 0 0 10px 10px !important;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .LFP-form-control-CBX a {
+    font-size: 12px !important;
+  }
+}
+/* Media Properties */
+
 .LFP-main-form {
   display: flex;
   justify-content: center;
@@ -112,7 +138,7 @@ input[type="password"] {
 }
 
 .LFP-form-control-CBX a {
-  margin-left: 85px;
+  margin-left: 15%;
   font-size: 18px;
   text-decoration: none;
   color: #444;
